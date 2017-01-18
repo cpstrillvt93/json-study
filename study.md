@@ -38,7 +38,20 @@ As it makes sense to you please write the following in JSON format:
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
 ```json
-<!-- your answer here -->
+Jason{
+  cat {
+    name: Mr.Kitty
+  }
+  roomates{
+    name:Dave, Miller
+  }
+  loves{
+    name:Red Sox, Patriots, Bruins
+  }
+  placesLived{
+    places: 123 Fake Street, 2 Muchinfo Road
+  }
+}
 ```
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
@@ -46,7 +59,31 @@ other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
 
 ```json
-<!-- your answer here -->
+Jason{
+  cat {
+    name: Mr.Kitty
+  }
+  roomateOne{
+    name: Dave
+    pets: goldfish{
+      name:Bob{
+        color:red
+      }
+      name:Mr.MagicNibbles{
+        color:yellow
+      }
+    }
+  roomateTwo{
+    name:Miller
+  }
+  loves{
+    name:Red Sox, Patriots, Bruins
+  }
+  placesLived{
+    places: 123 Fake Street, 2 Muchinfo Road
+  }
+}
+
 ```
 
 ## JSON Methods
@@ -54,7 +91,7 @@ already wrote and include the information about Dave's fish.
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+No. It is not an object, therefore cannot have behavior.
 ```
 
 ## JSON Comments
@@ -62,5 +99,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+No. Json cannot gave comments because it is just a string.
 ```
